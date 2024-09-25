@@ -46,7 +46,7 @@ db_schema:
   messages:
     client: search
     columns:
-    - admin_ui: {width: 200}
+    - admin_ui: {order: 0, width: 286}
       name: details
       type: string
     - admin_ui: {width: 200}
@@ -85,7 +85,7 @@ db_schema:
   tickets:
     client: search
     columns:
-    - admin_ui: {width: 135}
+    - admin_ui: {order: 0, width: 288}
       name: title
       type: string
     - admin_ui: {width: 125}
